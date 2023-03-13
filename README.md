@@ -1,5 +1,7 @@
 # AirBnB_clone - The Console
 
+![AirBnB Logo](https://www.pngitem.com/pimgs/m/132-1322125_transparent-background-airbnb-logo-hd-png-download.png)
+
 ## Overview
 
 The AirBnB Clone Project is a web application consisting of multiple components that work together seamlessly to provide a professional and user-friendly experience. It is the first step towards building a full-fledged web application.
@@ -36,3 +38,25 @@ This dynamic web application comprises the following components:
 The console is similar to shell, except it is a single-use function, a command-line interface from which we can create, modify, and delete objects in our file storage. It is a tool, a sandbox where we can play around with ideas to see what does and doesn't work in storage before we build out the rest of the web application. Command line interpreter manages serialization and deserialization of objects.
 
 In the context of the command-line interpreter, serialization and deserialization are used to save and load objects to and from storage, respectively. For example, when an object is created or modified in the console, it is serialized and saved to a file or database. When the object needs to be retrieved later, it is deserialized from the storage format and reconstructed as an object in memory.
+
+## Description of the command interpreter:
+The interface of the application is just like the Bash shell except that it has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
+
+This command line interpreter  serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
+
+Some of the commands available are:
+- show
+- create
+- update
+- destroy
+- count
+
+And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
+-   Creating new objects (ex: a new User or a new Place)
+-   Retrieving an object from a file, a database etc…
+-   Doing operations on objects (count, compute stats, etc…)
+-   Updating attributes of an object
+-   Destroying an object
+
+
+
