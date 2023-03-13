@@ -32,7 +32,7 @@ class FileStorage:
         """ serializes __objects to the JSON file """
         with open(FileStorage.__file_path, "w", encoding="utf-8") as f:
             a = {}
-            for k, v in FileStorge.__objects.items():
+            for k, v in FileStorage.__objects.items():
                 a[k] = v.to_dict()
             j = json.dumps(a)
             f.write(j)
