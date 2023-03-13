@@ -3,10 +3,11 @@
 import cmd
 import sys
 from models.base_model import BaseModel
+from models import storage
 
 class HBNBCommand(cmd.Cmd):
     """ cmd class """
-    classes = ["BaseModel"]
+    # classes = ["BaseModel"]
     def main():
         """ main function """
         do_EOF(self, arg)
