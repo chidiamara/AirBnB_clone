@@ -39,24 +39,24 @@ The console is similar to shell, except it is a single-use function, a command-l
 
 In the context of the command-line interpreter, serialization and deserialization are used to save and load objects to and from storage, respectively. For example, when an object is created or modified in the console, it is serialized and saved to a file or database. When the object needs to be retrieved later, it is deserialized from the storage format and reconstructed as an object in memory.
 
-## Description of the command interpreter:
+## Description of the command interpreter
+
 The interface of the application is just like the Bash shell except that it has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter  serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
 
 Some of the commands available are:
+
 - show
 - create
 - update
 - destroy
 - count
 
-And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
--   Creating new objects (ex: a new User or a new Place)
--   Retrieving an object from a file, a database etc…
--   Doing operations on objects (count, compute stats, etc…)
--   Updating attributes of an object
--   Destroying an object
+And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the following actions can be performed:
 
-
-
+- Creating new objects (ex: a new User or a new Place)
+- Retrieving an object from a file, a database etc…
+- Doing operations on objects (count, compute stats, etc…)
+- Updating attributes of an object
+- Destroying an object
