@@ -6,8 +6,8 @@ section.filters {
     border: solid 1px #dddddd;
     border-radius: 4px;
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
 }
 
 button {
@@ -46,4 +46,35 @@ div > h4 {
 }
 div.locations, div.amenities, div > h3, div > h4 {
     padding-left: 4%;
+}
+ul.popover {
+    background-color: #fafafa;
+    width: 100%;
+    border: solid 1px #dddddd;
+    border-radius: 4px;
+    position: relative;
+    display: none;
+
+}
+li {
+    list-style-type: none;
+}
+ul.pop1 {
+    top: 18px;
+    right: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: -20px;
+}
+ul.pop2 {
+    top: 19px;
+    right: 52px;
+    padding: 40px 58px;
+    padding-right: 62px;
+}
+div.locations:hover .popover {
+    display: block;
+}
+div.amenities:hover .popover {
+    display: block;
 }
